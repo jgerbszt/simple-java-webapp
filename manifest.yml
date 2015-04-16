@@ -1,0 +1,8 @@
+---
+applications:
+- name: simple-java-webapp 
+  memory: 512M
+  host: simple-java-webapp
+  path: target/simple-java-webapp-0.0.1-SNAPSHOT.jar
+  env:
+    MESSAGE: "Ala ma kota"
