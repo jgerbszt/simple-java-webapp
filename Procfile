@@ -1,1 +1,1 @@
-web:   mvn spring-boot:run 
+web:   java -cp target/classes:target/dependency/* pl.javour.Main 
